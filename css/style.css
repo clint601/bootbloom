@@ -36,13 +36,13 @@ body{
 }
 
 .figure{
-    /* margin-right: 60px;
-    margin-bottom: 30px; */
+    margin-right: 60px;
+    margin-bottom: 30px;
     background-color: black;
     border: 5px solid #b8c4d4;
-    /* height: 140px;
-    width: 280px; */
-    /* float: left; */
+    height: 140px;
+    width: 280px;
+
 }
 
 
@@ -54,6 +54,23 @@ body{
     list-style: none;
 }
 
+/* .com{
+    list-style: none;
+} */
+.bold{
+    font-weight: 500;
+    color: black;
+}
+
+.sec2-text{
+    color: #d8d8d8;
+}
+
+.sec4-text{
+    color: gray;
+}
+
+
 
 .laptop-img{
     background-image: var(--prim);
@@ -64,12 +81,15 @@ body{
 }
 
 .section2{
-    background-color: #777;
+    padding: 20px;
+    background-color:#f4f4f6;
+    border-bottom: 10px solid #fce3e7;
 }
 
-
+.footer{
+    background-color: black;
+}
 /* ids */
-
 #headerSection1{
     background-color: black;
 }
